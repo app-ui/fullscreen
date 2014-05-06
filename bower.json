@@ -1,0 +1,28 @@
+{
+	"name": "app.ui.fullscreen",
+	"version": "0.0.1",
+	"description": "A Polymer element that creates an element to switch between fullscreen modes",
+	"authors": [
+		"Makis Tracend <makis@makesit.es>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"ui",
+		"fullscreen",
+		"polymer",
+		"web-components"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/app-ui/fullscreen.git"
+	},
+	"ignore": [
+		"bower_components",
+		"node_modules"
+	],
+	"dependencies": {
+		"platform": "Polymer/platform#~0.2.3",
+		"polymer": "Polymer/polymer#~0.2.3",
+		"backbone.ui.fullscreen": "*"
+	}
+}
