@@ -1,0 +1,31 @@
+<polymer-element name="ui-fullscreen" extends="a" attributes="">
+<!-- local files
+<link rel="stylesheet" href="../bower_components/backbone.ui.fullscreen/assets/css/backbone.ui.fullscreen.css" type="text/css" media="screen">
+<script type="text/javascript" src="../bower_components/backbone.ui.fullscreen/assets/js/backbone.ui.fullscreen.js"></script>
+-->
+<link rel="stylesheet" href="http://rawgit.com/backbone-ui/fullscreen/master/assets/css/backbone.ui.fullscreen.css" type="text/css" media="screen">
+<script type="text/javascript" src="http://rawgit.com/backbone-ui/fullscreen/master/assets/js/backbone.ui.fullscreen.js"></script>
+
+<script>
+	Polymer('ui-fullscreen', {
+		created: function() {
+			// this is executed when the tag is inserted
+			//var button = this;
+
+			// initiate view on element
+			var view = new Backbone.UI.Fullscreen({
+				el: this
+			});
+
+		}
+
+	});
+
+</script>
+<style>
+	/* element styles */
+	ui-fullscreen {
+
+	}
+</style>
+</polymer-element>
