@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>APP UI: Fullscreen component</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<!-- Importing Web Component's Polyfill -->
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.2.3/platform.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.2.3/polymer.js"></script>
+
+	<!-- dependencies -->
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+
+	<!-- Importing Custom Elements -->
+	<link rel="import" href="../component/ui-fullscreen.html">
+	<!-- the style sheet inside the component doesn't work? -->
+	<link rel="stylesheet" href="../bower_components/backbone.ui.fullscreen/assets/css/backbone.ui.fullscreen.css" type="text/css" media="screen">
+
+	<style>
+
+		a {
+			float: right;
+		}
+
+	</style>
+</head>
+<body>
+
+<!-- example link -->
+<a is="ui-fullscreen">Fullscreen</a>
+
+<h1>Fullscreen: Default icon</h1>
+
+<p>On the right is the default style fr the fullscreen button, applied to a standard link.</p>
+
+<p>You can customize the button by referencing the "style" option on initialization, which can be false if you don't want any styling applied.</p>
+
+
+</body>
+</html>
