@@ -1,6 +1,6 @@
 {
 	"name": "app.ui.fullscreen",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "A Polymer element that creates an element to switch between fullscreen modes",
 	"authors": [
 		"Makis Tracend <makis@makesit.es>"
