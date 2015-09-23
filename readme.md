@@ -33,7 +33,7 @@ bower install app.ui.fullscreen
 
 Currently only the ```<a>``` tag is supported.
 
-[View the example](http://rawgit.com/app-ui/fullscreen/master/examples/index.html).
+[View the example](./examples/index.html)
 
 
 ## Options
