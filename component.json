@@ -1,0 +1,27 @@
+{
+	"name": "app.ui.fullscreen",
+	"version": "0.1.0",
+	"description": "A custom element to allow a webpage to switch to fullscreen mode",
+	"authors": [
+		"Makis Tracend <makis@makesit.es>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"ui",
+		"fullscreen",
+		"web-components"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/app-ui/fullscreen.git"
+	},
+	"ignore": [
+		"bower_components",
+		"node_modules"
+	],
+	"dependencies": {
+		"backbone.app": "*",
+		"backbone.ui.fullscreen": "*",
+		"webcomponentsjs": "*"
+	}
+}
